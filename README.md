@@ -16,19 +16,19 @@
 
 ## RL Training
 ### Network Structure
-- H(), embedding layer, normalizes the input values and standardize the input dimensions.
-- G(), transformer layer, deals with stochastic neighbors information
-- F(), actor-critic network combined.
+- Embedding network normalizes the input values and standardizes the input dimensions.
+- Transformer processes dynamic neighbors' information using encoders and decoders.
+- Actor-critic network outputs the estimated state value and stochastic action in spherical coordinates. 
 ![TransRL.jpg](test%20and%20visualization%2Fmd_present%2FHTransRL.jpg)
 
 
 
 ### Training File
-#### One set of parameters: [main.py](rl_multi_3d_trans%2Fmain.py)
-#### Batch process, for parameter grid search: [batched_grid_search.sh](rl_multi_3d_trans%2Fbatched_grid_search.sh)
-Models (actor/critic) are saved every 0.25 million steps
-Training steps can be visualized with terminal log and TensorBoard.
+#### Train one set of parameters: [main.py](rl_multi_3d_trans%2Fmain.py)
+#### Train a batch, parameter grid search: [batched_grid_search.sh](rl_multi_3d_trans%2Fbatched_grid_search.sh)
+Models (actor/critic) are saved every 0.25 million steps.
+Training process is visualized with terminal log and TensorBoard.
 
 ### Test File
-#### Series, generate animation: [D3MOVE_test_single_core.py](test%20and%20visualization%2FD3MOVE_test_single_core.py)
+#### Serial, generate animation: [D3MOVE_test_single_core.py](test%20and%20visualization%2FD3MOVE_test_single_core.py)
 #### Parallel, generate data for figs: [D3MOVE_test_parallel.py](test%20and%20visualization%2FD3MOVE_test_parallel.py)
