@@ -1,4 +1,8 @@
 # Hybrid-Transformer based Multi-agent Reinforcement Learning for Multiple Unmanned Aerial Vehicle Coordination in Air Corridors
+## Modeling
+### Air Corridor, Cylinder and Torus
+![Air_corridor.jpg](test%20and%20visualization%2Fmd_present%2FAir_corridor.jpg)
+
 ## Animation
 #### cttc, one-transfer
 4 air corridors, cylinder-torus-torus-cylinder, 12 UAVs, 4-static, and 3-moving
@@ -10,9 +14,7 @@
 ![cttcttcttc_12.gif](test%20and%20visualization%2Fmd_present%2Fanimation%2Fcttcttcttc_12.gif)
 
 
-## Modeling
-### Air Corridor, Cylinder and Torus
-![Air_corridor.jpg](test%20and%20visualization%2Fmd_present%2FAir_corridor.jpg)
+
 
 ## RL Training
 ### Network Structure
