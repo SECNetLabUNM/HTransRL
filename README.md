@@ -5,11 +5,11 @@
 
 ## Animation
 #### cttc, one-transfer
-4 air corridors, cylinder-torus-torus-cylinder, 12 UAVs, 4-static, and 3-moving
+4 air corridors, cylinder-torus-torus-cylinder, 12 UAVs, 4-static, and 3-mobile
 
 ![cttc_12.gif](test%20and%20visualization%2Fmd_present%2Fanimation%2Fcttc_12.gif)
 #### cttcttcttc, 3-transfer
-10 air corridors, cylinder-torus-torus-cylinder-torus-torus-cylinder-torus-torus-cylinder, 12 UAVs, 4-static, and 3-moving
+10 air corridors, cylinder-torus-torus-cylinder-torus-torus-cylinder-torus-torus-cylinder, 12 UAVs, 4-static, and 3-mobile
 
 ![cttcttcttc_12.gif](test%20and%20visualization%2Fmd_present%2Fanimation%2Fcttcttcttc_12.gif)
 
